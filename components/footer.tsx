@@ -1,0 +1,3 @@
+import {Brand,Arrow} from './ui';
+import {company} from '@/lib/content';
+export default function Footer(){return <footer className="site-footer"><div className="container"><div className="footer-main"><div><Brand light/><p>From vision to digital success.</p></div><div className="footer-links"><a href="/#services">Our services</a><a href="/school-setu">School Setu</a><a href="/#about">About Lavener</a></div><a className="footer-email" href={`mailto:${company.email}`}>Have something in mind?<br/><strong>Let’s build it together <Arrow diagonal/></strong></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Lavener Holdings</span><span>GSTIN {company.gstin}</span><a href={`tel:${company.tel}`}>{company.phone}</a></div></div></footer>}
