@@ -29,3 +29,4 @@ The School Setu page and homepage feature overview use the user-supplied Schoolo
 
 `lib/school-setu.ts` contains module details, role-specific portals, and document-format availability. Only fee-slip PDF printing is marked available. Report-card, student ID-card, salary-slip and custom-template printing remain planned. Payment modes describe recording collections, not an online payment-gateway integration. Transport describes route records, not live vehicle tracking. Brochure descriptions inform the content; the illustrative dashboard remains labelled as a preview. Setup and support terms retain the previously agreed maintenance start on receipt of the advance.
 # lavenerWebsite
+# lavenerWebsite
